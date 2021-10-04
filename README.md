@@ -1,7 +1,13 @@
-LIS_submission_dates_analysis
+## LIS Submission dates analysis
 
-RPub publications:
+**RPub graphics publications:**
 
-https://rpubs.com/abel_gelman/lis_submissions
+[2018 LIS Monitoring Cycle Data Collection](https://rpubs.com/abel_gelman/817701)
 
-https://rpubs.com/abel_gelman/817191
+[2019 LIS Monitoring Cycle Data Collection](https://rpubs.com/abel_gelman/817699)
+
+[2020 LIS Monitoring Cycle Data Collection](https://rpubs.com/abel_gelman/817702)
+
+[2021 LIS Monitoring Cycle Data Collection](https://rpubs.com/abel_gelman/817703)
+
+[Duty stations using LIS by hardship level](https://rpubs.com/abel_gelman/817694)
