@@ -12,6 +12,8 @@ df <- read_sheet("https://docs.google.com/spreadsheets/d/1r0ZSjUrOT_8LSvjgN95nJ-
            col_types = "ccccccDDD")
 view(df)
 summary(df)
+df$hardship_cat <- factor(df$hardship_cat, levels = c("E", "D", "C", "B", "A"))
+df$hardship_cat <- fct_rev(df$hardship_cat)
 
 mt_date <- df %>% 
   select(2,3, 7, 6) %>% 
@@ -23,11 +25,6 @@ unique(mt_date$country)
 # Regions
 regs <- read_sheet("https://docs.google.com/spreadsheets/d/1r0ZSjUrOT_8LSvjgN95nJ-2diIc4x0eW4GRqtuZsGhQ/edit#gid=1620496820",
                  sheet = "regions")
-
-
-
-
-
 
 
 
